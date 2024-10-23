@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const MateriaCard = ({maestro, materia, horario, grupo}) => {
+export default MateriaCard = ({maestro, materia, horario, grupo}) => {
   return (
     <View style={styles.cardContainer}>
       {/* Imagen de la carta
@@ -76,5 +76,3 @@ const styles = StyleSheet.create({
 
   },
 });
-
-export default MateriaCard;

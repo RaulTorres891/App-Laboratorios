@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { View, TextInput, StyleSheet, FlatList, Text } from "react-native";
-import Horarios from "./Horario";
 
-const Filter = ({  }) => {
+const Filter = () => {
 
   const [busqueda, setBusqueda] = useState("");
   const [NameMateria] = useState([
