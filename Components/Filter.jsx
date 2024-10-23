@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, TextInput, StyleSheet, FlatList, Text } from "react-native";
 import MateriaCard from "./MateriaCard"
 
-const Filter = () => {
+export default Filter = () => {
 
   const [busqueda, setBusqueda] = useState("");
   const [NameMateria] = useState([
@@ -61,5 +61,3 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
 });
-
-export default Filter;

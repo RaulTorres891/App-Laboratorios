@@ -1,9 +1,11 @@
 import React from 'react';
+import { TouchableOpacity } from 'react-native';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
 export default MateriaCard = ({maestro, materia, horario, grupo}) => {
   return (
-    <View style={styles.cardContainer}>
+    <TouchableOpacity>
+       <View style={styles.cardContainer}>
       {/* Imagen de la carta
       <Image
         source={{ uri: 'https://via.placeholder.com/150' }}
@@ -21,6 +23,7 @@ export default MateriaCard = ({maestro, materia, horario, grupo}) => {
         
       </View>
     </View>
+    </TouchableOpacity>
   );
 };
 
