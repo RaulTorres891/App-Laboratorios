@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { View, TextInput, StyleSheet, FlatList, Text } from "react-native";
+import MateriaCard from "./MateriaCard"
 
 const Filter = () => {
 
